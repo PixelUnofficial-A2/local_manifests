@@ -3,7 +3,7 @@
 <manifest>
      <remote  name="IR"
               fetch="https://github.com/PixelUnofficial-A2"
-              revision="test"/>	
+              revision="eleven"/>	
   <!-- kernel -->
 	<project name="kernel_xiaomi_sdm660"         path="kernel/xiaomi/sdm660"         remote="IR"/>
   <!-- jasmine-->
@@ -13,6 +13,4 @@
   <!-- vendor -->
 	<project name="vendor_xiaomi_sdm660-common"  path="vendor/xiaomi/sdm660-common"  remote="IR"/>
 	<project name="vendor_xiaomi_wayne-common"   path="vendor/xiaomi/wayne-common"   remote="IR"/>
-  <!-- Common-->
-	<project name="vendor_xiaomi_MiuiCamera"     path="vendor/xiaomi/MiuiCamera"     remote="IR" revision="main"/>
 </manifest>
